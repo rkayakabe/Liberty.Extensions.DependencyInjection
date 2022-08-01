@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liberty.Extensions.DependencyInjection", "src\Liberty.Extensions.DependencyInjection.csproj", "{1F535F46-E54A-4BF1-A51A-C08BF7A7DCAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Liberty.Extensions.DependencyInjection.Tests", "tests\Liberty.Extensions.DependencyInjection.Tests.csproj", "{7D7BE83D-4C23-4FBA-ADAB-7425842FE143}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F535F46-E54A-4BF1-A51A-C08BF7A7DCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F535F46-E54A-4BF1-A51A-C08BF7A7DCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F535F46-E54A-4BF1-A51A-C08BF7A7DCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F535F46-E54A-4BF1-A51A-C08BF7A7DCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7BE83D-4C23-4FBA-ADAB-7425842FE143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7BE83D-4C23-4FBA-ADAB-7425842FE143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7BE83D-4C23-4FBA-ADAB-7425842FE143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7BE83D-4C23-4FBA-ADAB-7425842FE143}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
