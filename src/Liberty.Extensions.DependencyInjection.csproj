@@ -2,7 +2,23 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <Title>Liberty.Extensions.DependencyInjection</Title>
+        <Description>This is an extension to Microsoft.Extensions.DependencyInjection. Provides the ability to dynamically inject services.</Description>
+        <Copyright>rkayakabe</Copyright>
+        <PackageProjectUrl>https://github.com/rkayakabe/Liberty.Extensions.DependencyInjection/tree/main/src</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/rkayakabe/Liberty.Extensions.DependencyInjection</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.3</PackageVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\LICENSE" Pack="true" PackagePath="\" />
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    
 
     <ItemGroup>
       <EmbeddedResource Update="Resources\SR.resx">
